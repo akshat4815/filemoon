@@ -1,0 +1,55 @@
+# -----------------------------
+# NODE / EXPRESS BACKEND
+# -----------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log
+package-lock.json
+node_modules/
+.env
+build/
+dist/
+
+# -----------------------------
+# ENVIRONMENT VARIABLES
+
+# -----------------------------
+.env
+
+# -----------------------------
+# FILE UPLOADS (IMPORTANT)
+# Your project stores user-uploaded files here.
+# DO NOT UPLOAD THEM TO GITHUB.
+# -----------------------------
+files/
+
+
+# -----------------------------
+# LOG FILES
+# -----------------------------
+*.log
+logs/
+debug.log
+
+# -----------------------------
+# SYSTEM / EDITOR FILES
+# -----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# -----------------------------
+# BUILD ARTIFACTS (if any)
+# -----------------------------
+dist/
+build/
+
+# -----------------------------
+# BACKUP FILES
+# -----------------------------
+*.bak
+*.old
